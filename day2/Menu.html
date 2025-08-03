@@ -23,15 +23,13 @@
         li {
             border: 2px solid rgb(189, 99, 99);
             border-radius: 5px;
-
-
         }
 
         a {
             text-decoration: none;
         }
 
-        nav {
+        .subnav {
             margin: 50px;
         }
 
@@ -74,6 +72,7 @@
 
         a:hover {
             background-color: rgb(214, 149, 7);
+            border-radius: 5px;
         }
 
         .mainnav div {
@@ -82,7 +81,7 @@
 
         .mainnav .navlinks {
             float: right;
-            margin-left: 240px;
+            margin-left: 300px;
             margin-top: 50px;
         }
 
@@ -90,6 +89,16 @@
             padding: 10px;
             border-radius: 5px;
         }
+        .logo img{
+            border: none;
+        }
+        #menuheading{
+            font-family: "Great Vibes", cursive;
+            color: #ff6a23;
+            text-align: center;
+            padding: 20px;
+        }
+
     </style>
     <link rel="icon" href="./logo.png">
 </head>
@@ -97,11 +106,19 @@
 <body>
     <header>
         <h1>Debug Hunger With Curry Restaurant</h1>
-        <h2>Menu Card</h2>
     </header>
-    <nav>
+    <nav class="mainnav">
+        <div class="logo"><img src="./logo.png" alt="Restaurant logo " width="100px" </div>
+            <div class="navlinks">
+                <span><a href="./index.html">HOME</a></span>
+                <span><a href="./Menu.html">OUR MENU</a></span>
+                <span><a href="./index.html">ABOUT</a></span>
+                <span><a href="./Reservations.html"> RESERVATIONS</a></span>
+            </div>
+    </nav>
+    <nav class="subnav">
+        <h2 id="menuheading">Menu Card</h2>
         <ul>
-            <li><a href="./index.html">HOME</a></li>
             <li><a href="#">ALL</a></li>
             <li><a href="#APPETIZERS">APPETIZERS</a></li>
             <li><a href="#STEAKS">STEAKS</a></li>

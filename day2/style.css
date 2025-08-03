@@ -1,7 +1,20 @@
 header h1{
-    margin-left: 40%;
+    margin-left: 36%;
+     font-family: "Great Vibes", cursive;
+            color: #ff6a23;
 }
-
+.subheading1{
+    margin-left: 41%;  
+    color: #ff6a23; 
+    /* font-family: "Great Vibes", cursive; */
+    margin-bottom: 40px;
+}
+header{
+    margin-bottom: 60px;
+}
+nav{
+    margin-bottom: 40px;
+}
 nav div{
     display: inline-block;
 }
