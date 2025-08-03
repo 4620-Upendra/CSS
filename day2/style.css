@@ -1,0 +1,155 @@
+header h1{
+    margin-left: 40%;
+}
+
+nav div{
+    display: inline-block;
+}
+
+.navlinks {
+    float:right;
+    padding-left: 1000px;
+    padding-top: 25px;
+}
+.navlinks>span{
+    padding: 10px;
+}
+.navlinks a:hover{
+    background-color: rgb(214, 149, 7);
+    border-radius: 5px;
+}
+a{
+    text-decoration: none;
+}
+.mainchild1{
+    padding-left:30px ;
+    padding-right: 15px;
+    margin-bottom: 30px;
+    
+}
+.item1{
+    display: inline-block;    
+    width: 350px; 
+}
+.mainchild2{
+    padding-left:30px ;
+    padding-right: 15px;
+    margin-bottom: 40px;
+}
+.item2{
+    
+    display: inline-block;    
+    width: 350px; 
+}
+
+.mainchild1 .item1 img{
+    width: 100%;
+}
+.mainchild2 .item2 img{
+    width: 100%;
+}
+.mainchild2 .item2 h3{
+    padding-left: 30px;
+}
+.mainchild1 .item1 h3{
+    padding-left: 30px;
+}
+
+.mainchild3{
+    padding-left: 45%;
+    margin-bottom: 30px;
+}
+.mainchild3 button:hover{
+    background-color: black;
+    color: white;
+     cursor: pointer;
+}
+.button1{
+    background-color: black;
+    color: white;
+}
+#subheading{
+    margin-left: 42%;
+    margin-top: 5%;
+}
+.mainchild4 img{
+    margin-left: 40%;
+    height: 300px;
+}
+
+.mainchild4 h3{
+    margin-left: 45%;
+}
+.mainchild4 h4{
+    margin-left: 41%;
+}
+main{
+    margin-bottom: 30px;
+}
+
+
+.footerclass{
+    width: 32%;
+    display: inline-block;
+}
+.blogpost{
+    width: 32%;
+    display: inline-block;
+
+}
+.popular{
+    width: 20%;
+    display: inline-block;
+}
+
+.blogpost .blog1{
+    display: inline-block;
+}
+.blogpost div p{
+    display: inline-block;
+    padding-top: 20px;
+}
+
+.blogpost div:hover{
+    background-color: rgb(233, 219, 219);
+}
+
+.blogpost  .img1{
+    width: 15%;
+    float: left;
+    margin: 10px;
+}
+.blogpost  .img2{
+    width: 14%;
+     float: left;
+     margin: 10px;
+}
+.popular  span{
+    background-color: #616161;
+    color: white;
+    margin-bottom: 10px;
+}
+.blogpost{
+    padding-top: 23px;
+}
+main{
+    margin-top: 2%;
+}
+.mainchild1 .item1{
+    margin-left: 10px;
+}
+.mainchild2 .item2{
+    margin-left: 10px;
+}
+.mainchild4{
+    padding-left:30px ;
+    padding-right: 15px;
+}
+.footerclass{
+   padding-left:30px ;
+    padding-right: 15px; 
+}
+.copyrigths{
+    padding-left: 35%;
+    padding-top: 5%;
+}
