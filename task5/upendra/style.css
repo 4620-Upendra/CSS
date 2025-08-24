@@ -1,0 +1,163 @@
+.upendra{
+    border: 2px solid;
+    width: 400px;
+    height: 700px;
+    margin-left: 30%;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    height: 600px;
+    overflow: scroll;
+    scrollbar-width: none;
+     position: relative;
+     /* margin-bottom: 30px */
+}
+
+
+.upendra i{
+    font-size: 40px;
+    color: white;
+    position: absolute;
+}
+.upendra header img{
+    width: 50px;
+    border-radius: 55px;
+    margin-left: 60px;
+
+}
+header h2{
+    color: white;
+    display: inline;
+    margin-left: 20px;
+    position: absolute;
+    top: 0px;
+    /* padding: 20px; */
+}
+header{
+    margin-top: 0px;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    padding: 10px;
+    background-color: black;
+}
+details{
+   position: absolute;
+    display: inline-block 
+}
+details summary{
+    list-style: none; 
+    color: white;
+     background-color:black;
+    font-size: 38px;
+    margin-left: 250px; 
+    
+}
+details summary::before{
+    content:  "⋮";
+}
+ li{
+    list-style: none;
+    margin-bottom: 0%;
+    background-color:rgb(65, 43, 43);
+    padding: 10px;
+}
+ol{
+    margin-left: 106px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+}
+#icons{
+   font-size: 15px; 
+}
+li p{
+    margin-left: 30px;
+    display: inline;
+}
+.chat{
+    background-image: url(https://tse4.mm.bing.net/th/id/OIP.yzajnOAOhTiFnX3B6OtNeAHaEK?pid=Api&P=0&h=180);
+    display: flex;
+}
+
+
+.foot{
+    background-color:black;
+    padding: 15px;
+    position: sticky;
+    bottom: 0px;
+  
+}
+.foot span{
+    font-size: 20px;
+    margin-left: 10%;
+}
+.foot input{
+    background-color: black;
+    border-style: none;
+    color: white;
+    border-color: black;
+    margin: 0px;
+    width: 250px;
+    outline: none;
+}
+.foot i{
+    font-size: 25px;
+    margin-left: 10px;
+}
+#id1{
+    margin-left: 0px;
+}
+#id3{
+    margin-left: 60px;
+}
+
+.chat{
+    display: flex;
+    flex-direction: column;
+}
+.right{
+align-self:end;
+width: 50%;
+background-color: blueviolet;
+border-radius: 20px;
+padding: 7px;
+margin-bottom: 5px;
+}
+.left{
+width: 50%;
+padding: 7px;
+border-radius: 20px;
+background-color:rgb(65, 43, 43);
+margin-bottom: 5px;
+}
+.chat div p{
+    padding: 0px;
+    margin: 0px;
+}
+.right i{
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+.chat h4{
+    background-color:rgb(65, 43, 43);
+    align-self: center;
+    border-radius: 20px;
+    padding: 7px;
+    margin-bottom: 10px;
+    position: sticky;
+    top: 70px;
+    margin-top: 0px;
+}
+.right p span{
+    margin-left: 8px;
+    font-size: 15px;
+}
+#icons{
+   font-size: 15px; 
+}
+
+
+
+

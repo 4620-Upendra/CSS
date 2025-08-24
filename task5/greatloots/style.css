@@ -1,0 +1,209 @@
+.greatLoots{
+    border: 2px solid;
+    width: 400px;
+    height: 700px;
+    margin-left: 30%;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    height: 600px;
+    overflow: scroll;
+    scrollbar-width: none;
+     position: relative;
+     /* margin-bottom: 30px */
+}
+.date21>h4{
+    margin-bottom: ;
+}
+
+.greatLoots i{
+    font-size: 40px;
+    color: white;
+    position: absolute;
+}
+.greatLoots header img{
+    width: 50px;
+    border-radius: 55px;
+    margin-left: 60px;
+
+}
+header h3{
+    color: white;
+    display: inline;
+    margin-left: 20px;
+    position: absolute;
+    top: 0px;
+    /* padding: 20px; */
+}
+header{
+    margin-top: 0px;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    padding: 10px;
+    background-color: black;
+}
+details{
+   position: absolute;
+    display: inline-block 
+ 
+}
+details summary{
+    list-style: none; 
+    color: white;
+     background-color:black;
+    font-size: 38px;
+    margin-left: 250px; 
+    
+}
+details summary::before{
+    content:  "⋮";
+}
+li{
+    list-style: none;
+    margin-bottom: 0%;
+    background-color:rgb(65, 43, 43);
+    padding: 10px;
+}
+ol{
+    margin-left: 106px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+}
+#icons{
+   font-size: 15px; 
+}
+li p{
+    margin-left: 30px;
+    display: inline;
+}
+.chat .date21>h4{
+    margin-left: 45%;
+    background-color: rgb(65, 38, 38);
+    display: inline;
+    border-radius: 10px;
+    padding: 4px;
+    position: sticky;
+    top: 80px;
+    margin-top: 10px;
+}
+.chat{
+    background-image: url(https://tse4.mm.bing.net/th/id/OIP.yzajnOAOhTiFnX3B6OtNeAHaEK?pid=Api&P=0&h=180);
+}
+.message1 p{
+    margin-top: 2px;
+    margin-bottom: 0px;
+}
+.message1 h5{
+    margin-bottom: 0px;
+}
+.message1 p a{
+    text-decoration: none;
+    color: blueviolet;
+}
+.message1{
+    background-color: rgb(44, 21, 21);
+    width: 60%;
+    border-radius: 25px;
+    padding: 4px;
+    padding-top: 1px;
+    padding-left: 7px;
+    margin-top: 20px;
+}
+.message1 h4{
+    margin-top: 0px;
+}
+.message1 p span i{
+    font-size: 11px;
+    color: rgb(94, 77, 77);
+    margin-left: 48px;
+    padding-top: 6px;
+}
+.message1 p span{
+     margin-left: 60px;
+     font-size: 10px;
+}
+.innerspan{
+    margin-left: 0px;
+}
+.hastag1{
+    color: blue;
+}
+.hastag2 {
+    color: blue;
+    padding-left: 9px;
+}
+.message2 img{
+    width: 100%;
+    border-radius: 25px 25px 0px 0px;
+}
+.message2{
+    width: 70%;
+    border-radius: 25px;
+    margin-top: 5px;
+    background-color: rgb(44, 21, 21);
+    padding-left: 6px;
+}
+.rs{
+    color: blue;
+}
+.message2 p a{
+    text-decoration: none;
+    color:blue;
+}
+.message2 p span i{
+    font-size: 11px;
+    color: rgb(94, 77, 77);
+    margin-left: 58px;
+    padding-top: 6px;
+}
+.message2 p span{
+     margin-left: 68px;
+     font-size: 10px;
+}
+.chat .date22>h4{
+    margin-left: 45%;
+    background-color: rgb(65, 38, 38);
+    display: inline;
+    border-radius: 10px;
+    padding: 4px;
+    position: sticky;
+    top: 90px;
+    margin-top: 40px;
+} 
+.chat .date23>h4{
+    margin-left: 45%;
+    background-color: rgb(65, 38, 38);
+    display: inline;
+    border-radius: 10px;
+    padding: 4px;
+    position: sticky;
+    top: 90px;
+   
+    margin-top: 40px;
+}
+
+
+.foot{
+    background-color:black;
+    padding: 15px;
+    position: sticky;
+    bottom: 0px;
+  
+}
+.foot span{
+    font-size: 20px;
+    margin-left: 36%;
+}
+.foot i{
+    font-size: 20px;
+    margin-left: 10px;
+}
+#footi2{
+    margin-left: 138px;
+}
+
+
+
+
