@@ -1,0 +1,45 @@
+.subcontainer1{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-around;
+    padding-top: 15px;
+    padding-bottom: 0px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.sub1 i{
+    padding: 4px;
+}
+.sub1 span{
+    position: absolute;
+    top: 2px;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+.maincontainer{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 20%;    
+}
+.subcontainer2{
+    display: flex;
+    justify-content: center;
+
+}
+.sub2sub1{
+    background-color: lightgreen;
+    padding: 7px;
+    flex-basis: 300px;
+    display: flex;
+    justify-content: space-between;
+    border-radius:0px 0px 0px 10px;
+}
+.sub2sub2{
+    background-color: red;
+    padding: 8px;
+    color: white;
+    border-radius:0px 0px 10px 0px;
+}
+
