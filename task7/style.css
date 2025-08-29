@@ -24,7 +24,7 @@
     position: relative;
     margin-bottom: 0px;  
     transition-property: background-color ;
-    transition-duration: 8s;
+    transition-duration: 6s;
     background-color: red; 
 }
 .child{
