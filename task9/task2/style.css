@@ -16,38 +16,42 @@
     background-color: blue;
     animation: first 0.6s  4,
     second 0.2s ease-in-out 6 alternate,
-    third1  1s linear infinite alternate-reverse;
+    /* third1  1s linear infinite alternate-reverse; */
+    third1  1s linear 3;
   animation-delay: 0s, 2.4s,3.6s;                  
   /* Delays:
      first = 0.6 × 4 = 2.4s
      second = 0.2 × 6 = 1.2s
      total before third = 3.6s
   */
-    animation-direction: alternate;
+    /* animation-direction: alternate; */
 }
 .child-2{
     background-color: red;
     animation: first 0.8s  4,
     second 0.3s ease-in-out 6 alternate,
-    third2  1s linear infinite alternate-reverse;
+    /* third2  1s linear infinite alternate-reverse; */
+    third2  1s linear 3;
   animation-delay: 0s, 2.4s,3.6s; 
-    animation-direction: alternate;
+    /* animation-direction: alternate; */
 }
 .child-3{
     background-color: yellow;
     animation: first 0.9s  4,
     second 0.2s ease-in-out 6 alternate,
-    third3  1s linear infinite alternate-reverse;
+    /* third3  1s linear infinite alternate-reverse; */
+    third3  1s linear 3;
     animation-delay: 0s, 2.4s,3.6s; 
-    animation-direction: alternate;
+    /* animation-direction: alternate; */
 }
 .child-4{
     background-color: green;
     animation: first 1s  4,
     second 0.3s ease-in-out 6 alternate,
-    third4  1s linear infinite alternate-reverse;
+    /* third4  1s linear infinite alternate-reverse; */
+    third4  1s linear 3;
     animation-delay: 0s, 2.4s,3.6s; 
-    animation-direction: alternate;
+    /* animation-direction: alternate; */
 }
 
 @keyframes first {
@@ -72,38 +76,93 @@
     
 }
 @keyframes third1 {
-    from{
+    /* from{
         transform: translate(0);
     }
     to{
         transform: translate(150px);
+    } */
+     0%{
+        transform: translate(0);
     }
+    25%{
+        transform: translate(150px);
+    }
+    50%{
+        transform: translate(150px,100px);
+    }
+    75%{
+        transform: translate(0px,100px);
+    }
+    100%{
+        transform: translate(0);
+    }
+
     
 }
  @keyframes third2 {
-    from{
+    /* from{
         transform: translatex(50px);
     }
     to{
         transform: translate(50px,100px);
+    } */
+     0%{
+        transform: translatex(50px);
+    }
+     25%{
+        transform: translate(50px,100px);
+    }
+    50%{
+        transform: translate(50px,100px);
+    }
+    75%{
+        transform: translate(-50px,100px);
+    }
+    100%{
+        transform: translate(-50px,0px);
     }
     
 }
 @keyframes third3 {
-    from{
+    /* from{
         transform: translate(-100px);
     }
     to{
         transform: translate(-110px,100px);
+    } */
+    0%{
+        transform: translatey(100px);
+    }
+    25%{
+        transform: translate(-100px,100px);
+    }
+    50%{
+        transform: translate(-100px,0px);
     }
     
 }
 @keyframes third4 {
-    from{
+    /* from{
         transform: translate(0);
     }
     to{
         transform: translate(-150px);
+    } */
+    0%{
+        transform: translate(-140px,100px);
+    }
+    25%{
+        transform: translate(-150px,0px);
+    }
+    50%{
+        transform: translate(-50px,0px);
+    }
+    75%{
+        transform: translate(-50px,100px);
+    }
+    100%{
+        transform: translate(-140px,100px);
     }
     
 }
