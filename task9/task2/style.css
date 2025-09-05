@@ -14,7 +14,7 @@
 
 .child-1{
     background-color: blue;
-    animation: first 0.6s  4,
+    animation: first 0.6s  4 alternate,
     second 0.2s ease-in-out 6 alternate,
     /* third1  1s linear infinite alternate-reverse; */
     third1  1s linear 3;
@@ -28,7 +28,7 @@
 }
 .child-2{
     background-color: red;
-    animation: first 0.8s  4,
+    animation: first 0.8s  4 alternate,
     second 0.3s ease-in-out 6 alternate,
     /* third2  1s linear infinite alternate-reverse; */
     third2  1s linear 3;
@@ -37,7 +37,7 @@
 }
 .child-3{
     background-color: yellow;
-    animation: first 0.9s  4,
+    animation: first 0.9s  4 alternate,
     second 0.2s ease-in-out 6 alternate,
     /* third3  1s linear infinite alternate-reverse; */
     third3  1s linear 3;
@@ -46,7 +46,7 @@
 }
 .child-4{
     background-color: green;
-    animation: first 1s  4,
+    animation: first 1s  4 alternate,
     second 0.3s ease-in-out 6 alternate,
     /* third4  1s linear infinite alternate-reverse; */
     third4  1s linear 3;
